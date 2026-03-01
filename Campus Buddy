@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Campus Buddy - Library Timetable</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f8fb;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 20px;
+    }
+
+    table {
+      margin: 30px auto;
+      border-collapse: collapse;
+      width: 70%;
+      background-color: white;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 12px;
+    }
+
+    th {
+      background-color: #0073e6;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    footer {
+      margin-top: 30px;
+      padding: 10px;
+      background-color: #004080;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>📚 Campus Buddy</h1>
+  <h2>Library Timetable - Anurag University</h2>
+</header>
+
+<h3>Library Working Hours</h3>
+
+<table>
+  <tr>
+    <th>Day</th>
+    <th>Opening Time</th>
+    <th>Closing Time</th>
+  </tr>
+  <tr>
+    <td>Monday</td>
+    <td>9:00 AM</td>
+    <td>5:00 PM</td>
+  </tr>
+  <tr>
+    <td>Tuesday</td>
+    <td>9:00 AM</td>
+    <td>5:00 PM</td>
+  </tr>
+  <tr>
+    <td>Wednesday</td>
+    <td>9:00 AM</td>
+    <td>5:00 PM</td>
+  </tr>
+  <tr>
+    <td>Thursday</td>
+    <td>9:00 AM</td>
+    <td>5:00 PM</td>
+  </tr>
+  <tr>
+    <td>Friday</td>
+    <td>9:00 AM</td>
+    <td>5:00 PM</td>
+  </tr>
+  <tr>
+    <td>Saturday</td>
+    <td>9:00 AM</td>
+    <td>1:00 PM</td>
+  </tr>
+  <tr>
+    <td>Sunday</td>
+    <td colspan="2">Closed</td>
+  </tr>
+</table>
+
+<h3>📌 Library Rules</h3>
+<p>✔ Maintain Silence</p>
+<p>✔ Carry ID Card</p>
+<p>❌ No Mobile Calls</p>
+<p>❌ No Food Inside</p>
+
+<footer>
+  <p>© 2026 Campus Buddy | Designed by RIKITHA</p>
+</footer>
+
+</body>
+</html>
